@@ -3,11 +3,11 @@ import IconButton, { IconButtonProps } from '@mui/material/IconButton';
 import '/DateRangePicker.css'
 
 interface DateRangePickerProps {
-	onNext: Function,
+    onNext: Function,
     onSelectionChange: Function,
     selection?: Array<null | Date>,
-	startDate?: Date,
-	preloadMonths?: number,
+    startDate?: Date,
+    preloadMonths?: number,
 }
 
 const DateRangePicker = (props: DateRangePickerProps) => {
@@ -81,10 +81,10 @@ const DateRangePicker = (props: DateRangePickerProps) => {
 }
 
 interface MonthsScrollerProps {
-  startDate: Date,
-	selection: Array<null| Date>,
-	onSelection: Function,
-  preloadMonths?: number,
+    startDate: Date,
+    selection: Array<null| Date>,
+    onSelection: Function,
+    preloadMonths?: number,
 }
 
 const MonthsScroller = (props: MonthsScrollerProps) => {
@@ -105,9 +105,9 @@ const MonthsScroller = (props: MonthsScrollerProps) => {
 }
 
 interface monthProps {
-  value: Date,
-  selection: Array<null| Date>,
-  onSelection?: Function
+    value: Date,
+    selection: Array<null| Date>,
+    onSelection?: Function
 }
 
 const Month = (props: monthProps) => {
@@ -158,11 +158,11 @@ const Month = (props: monthProps) => {
 }
 
 interface daysContainerProps {
-  value: Date,
-  indent: number,
-  numDays: number,
-  selection: Array<null| Date>,
-  onSelection: React.MouseEventHandler<HTMLButtonElement>
+    value: Date,
+    indent: number,
+    numDays: number,
+    selection: Array<null| Date>,
+    onSelection: React.MouseEventHandler<HTMLButtonElement>
 }
 
 const DaysContainer = (props: daysContainerProps) => {
@@ -247,7 +247,7 @@ const DaysContainer = (props: daysContainerProps) => {
 }
 
 interface dayButtonProps extends IconButtonProps {
-  active?: boolean
+    active?: boolean
 }
 
 const DayButton = (props: dayButtonProps) => {
