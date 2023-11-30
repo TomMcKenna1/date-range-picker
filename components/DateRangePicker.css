@@ -34,12 +34,12 @@
 
 .days-container__indent--start {
     height: 100%;
-    background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.05));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
 }
 
 .days-container__indent--end {
     height: 100%;
-    background: linear-gradient(90deg, rgba(0,0,0,0.05), rgba(0,0,0,0));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
 }
 
 .days-container__day {
@@ -51,15 +51,15 @@
 }
 
 .days-container__day--inbetween {
-    background: rgba(0,0,0,0.05);
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .days-container__day--first {
-    background: linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.05) 50%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.05) 50%);
 }
 
 .days-container__day--last {
-    background: linear-gradient(90deg, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0) 50%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0) 50%);
 }
 
 .days-container__day__button {
@@ -80,10 +80,13 @@
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .date-range-picker::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
+    display: none;
+    /* Safari and Chrome */
 }
