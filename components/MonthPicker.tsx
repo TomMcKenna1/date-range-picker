@@ -1,4 +1,5 @@
-import DayPicker from "./DayPicker"
+import DayPicker from "./DayPicker";
+import "./MonthPicker.css";
 
 interface monthPickerProps {
   value: Date,
@@ -52,3 +53,5 @@ const MonthPicker = (props: monthPickerProps) => {
     </div>
   )
 }
+
+export default MonthPicker;

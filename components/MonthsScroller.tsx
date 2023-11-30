@@ -1,4 +1,5 @@
-import MonthPicker from "./MonthPicker"
+import MonthPicker from "./MonthPicker";
+import "./MonthsScroller.css";
 
 interface MonthsScrollerProps {
   startDate: Date,

@@ -1,5 +1,6 @@
-import Button from '@mui/material/Button'
-import MonthsScroller from "./components/MonthsScroller"
+import Button from '@mui/material/Button';
+import MonthsScroller from "./components/MonthsScroller";
+import "./DateRangePicker.css";
 
 interface DateRangePickerProps {
   onNext: Function,
@@ -78,3 +79,5 @@ const DateRangePicker = (props: DateRangePickerProps) => {
     </div>
   </>);
 }
+
+export default DateRangePicker

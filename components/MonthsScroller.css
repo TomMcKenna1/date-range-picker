@@ -1,0 +1,14 @@
+.date-range-picker {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.date-range-picker::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}

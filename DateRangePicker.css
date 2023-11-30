@@ -1,0 +1,14 @@
+.days-header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    border-bottom: 1px solid lightgrey;
+}
+
+.days-header__day {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    flex: 1 1 0px;
+}

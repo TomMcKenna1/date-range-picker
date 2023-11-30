@@ -1,5 +1,5 @@
 import IconButton, { IconButtonProps } from '@mui/material/IconButton';
-import '/DateRangePicker.css'
+import './DayPicker.css';
 
 interface dayButtonProps extends IconButtonProps {
   active?: boolean
@@ -20,4 +20,4 @@ const DayButton = (props: dayButtonProps) => {
   )
 }
 
-export default DateRangePicker;
+export default DayButton;

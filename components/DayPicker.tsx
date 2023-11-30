@@ -1,4 +1,5 @@
-import DayButton from "./DayButton"
+import DayButton from "./DayButton";
+import './DayPicker.css';
 
 interface daysPickerProps {
   value: Date,
@@ -88,3 +89,5 @@ const DayPicker = (props: daysPickerProps) => {
     </ul>
   )
 }
+
+export default DayPicker;
